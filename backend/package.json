@@ -1,0 +1,33 @@
+{
+  "name": "be-directory-business-cr",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/juniorov/business-directory-cr#readme",
+  "bugs": {
+    "url": "https://github.com/juniorov/business-directory-cr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorov/business-directory-cr.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Junior Obando V",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
